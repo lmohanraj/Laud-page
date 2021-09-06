@@ -1,0 +1,207 @@
+body{
+    height: 100vh;
+    background-color: white;
+    color: black;
+    margin: 0px;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.header-li{
+    float: left;
+    padding: 10px;
+    color: #a1bbbc ;
+}
+.header{
+    background-color: #1b1c1d;
+    color: white;
+    padding: 10px;
+    line-height: 3rem;
+}
+.header-list{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+}
+.about{
+    padding-top: 125px;
+    padding-left: 25px;
+    display: flex;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+img{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+h3{
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.buttons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+button{
+    border-radius: 5px;
+    padding : 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    font-size: 1.2rem;
+}
+.Learn-more{
+    background-color: #e0e1e2;  
+}
+.Videos{
+    background-color: #db2828;
+    color: white;
+}
+.Books{
+    background-color: #f2711c;
+    color: white;
+}
+.quote{
+    background-color: #1b1c1d;
+    color: white;
+    font-weight: bold;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(201, 191, 191);
+}
+.award-divider{
+    border-top: 1px solid black;
+    position: relative;
+}
+.awards{
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: -14px;
+    left: 44%;
+}
+.award-section{
+    margin: 80px;
+    display: flex;
+    flex-direction: coloumn;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center; 
+}
+.award-details{
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 250px;
+}
+.award-title{
+margin-bottom: 5px;
+font-size: 1.2rem;
+}
+.award-year{
+    margin: 0px;
+    font-size: 0.8rem;
+}
+.award-desc{
+    font-size: 0.8rem;
+}
+
+.poetry-and-poems{
+    display: flex;
+    gap: 30px;
+}
+.poetry-parent{
+    position: relative;
+    border-top: 1px solid grey;
+    max-width: 50%;
+    margin-left: 40px;
+}
+.poetry-child{
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: white;
+    top: -12px;
+    left: 200px;
+    z-index: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+}
+.poem-parent{
+    position: relative;
+    border-top: 1px solid grey;
+    padding-right: 30px;
+}
+.poem-child{
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: white;
+    top: -12px;
+    left: 200px;
+    padding-left: 20px;
+    padding-right: 0px;
+    letter-spacing: 2px;
+}
+
+ul{
+    font-size: 0.8rem;
+    padding: 30px;
+    padding-left: 100px;
+}
+footer{
+    background-color: #1b1c1d ;
+    color: skyblue;
+    display: flex;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.footer-style{
+    border-right: 0.5px solid grey;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.disclaimer{
+    padding-left: 20px;
+}
+@media(min-width:500px){
+    .award-section{
+    flex-direction: row;
+    }
+}
